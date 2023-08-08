@@ -1,0 +1,117 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta  name="viewport" content="width=device-width, initial-scale=1.0">
+	<!--The <meta> tag contents are not visible on your browser.
+They are just used to give additional information about the HTML document.
+The <meta> tags are added to our HTML document for the purpose of Search Engine Optimisation.
+They are added inside the <head> tag.-->
+	<title> University Website Design </title>
+	<link rel="stylesheet" type="text/css" href="style.css"> 
+	<link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+
+<link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,300;0,400;1,100;1,200;1,300&display=swap" rel="stylesheet">
+<link rel="stylesheet" type="text/css" href="css/all.min.css">
+</head>
+<body>
+    <section class=" sub-header">
+		<nav>
+			<a href="index.html"><img src="logo.png"></a>
+	       <!--a href="index.html"><img src="file:///C:/Users/vaishnavi%20vaidya/Downloads/canstockphoto55445649.jpg"></a-->
+	       <div class="nav-links" id="navLinks">
+	       <!--i class="far fa-times-circle" onclick="hideMenu()"> </i-->   	
+	       	<ul>
+	       		<li><a href="index.html"> HOME</a></li>
+	       		<li><a href="about.html">ABOUT</a></li>
+	       		<li><a href="course.html">COURSE</a></li>
+	       		<li><a href="blog.html">BLOG</a></li>
+	       		<li><a href="contact.html">CONTCAT</a></li>
+	       	</ul>
+	       	
+	       </div>
+	       <!--i class="fas fa-bars" onclick="showMenu()"--> </i><!--this is menu icon-->
+	    </nav>
+	    <h1> Contact Us </h1>
+
+</section>
+<!------------contact us ------>
+<section class="location">
+	<iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d120976.61521416543!2d73.72210375974015!3d18.640682184279594!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3bc2b8377fbdeab3%3A0x2c4265dab1a7a0f8!2sPimpri-Chinchwad%2C%20Maharashtra!5e0!3m2!1sen!2sin!4v1625907652313!5m2!1sen!2sin" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy"></iframe>
+</section>
+<section class="contact-us">
+	<div class="row">
+		<div class="contact-col">
+			<div>
+				<i class="fas fa-home">
+					<span>
+						<h5>XYZ ROAD , UVW BUILDING</h5>
+						<p> PIMPARI, CHINCHWAD, IN</p>
+					</span>
+				</i>
+			</div>
+			<div>
+				<i class="fas fa-phone"></i>
+				
+					<span>
+						<h5>XYZ ROAD , UVW BUILDING</h5>
+						<p> PIMPARI, CHINCHWAD, IN</p>
+					</span>
+				
+			</div>
+			<div>
+				
+				<i class="fas fa-envelope"></i>
+					<span>
+						<h5>ngrunf@chguy.com</h5>
+						<p> EMAIL US FOR YOUR QUERY</p>
+					</span>
+				
+			</div>
+		</div>
+		<div class="contact-col">
+			<form action="">
+				<input type="text" placeholder="Enter Your Name" required>
+				<input type="email" placeholder="Enter Email Address" required>
+				<input type="text" placeholder="Enter Your Subject" required>
+				<textarea rows="8" placeholder="Message" required></textarea>
+				<button  type="submit" class="hero-btn red-btn"> Send Message</button>
+				
+			</form>
+		</div>
+
+	</div>
+	
+</section>
+
+
+
+<!---------footer---------->
+
+<section class="footer">
+	<h4>About Us</h4>
+	<p> Lorem iftfg dcjn ftjbcx rgtj njbcdc rdcghb, tfbj b gtuhbr. ygvbujndc yth efds ijgfrv isvuf ifhz kgm aue ijm skmg jrn urgd gdgf. <br>sunf jshf nfjj jkuj.nxyhs h hdbb fhbb  shfb  shbfbfb shbr gbcn uthgn sjgnmg hdgn  gghg ruhfhb hjg hgngba  uen zjrg rsg gjgd.<br> udnbug hdinrg  sjbx jkrn f jgn  gdj  jnbn jns jnnb jnjb bbnn kbnjm  vmx   jhf  hnjj jdhd uanna. </p>
+	<div class="icons">
+		<i class="fab fa-facebook"></i>
+		<i class="fab fa-instagram"></i>
+		<i class="fab fa-linkedin"></i>
+		<i class="fab fa-twitter"></i>
+		<p> Made With <i class="far fa-heart"></i> My Practice</p>
+	</div>
+	
+</section>
+
+<!--java script-->
+
+<script>
+	var navLinks= document.getElementById("navLinks");
+	function showMenu() {
+		navLinks.style.right= "0";
+	}
+	function hideMenu() {
+		navLinks.style.right = "-200px";
+	}
+	
+
+</body>
+</html>
